@@ -6,7 +6,7 @@
       <LocalizedName description="PPFS21" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.1</Version>
+    <Version>1.0.0.2</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>piebou</UniqueName>
@@ -84,7 +84,6 @@
       <RootComponent type="1" schemaName="pbo_livre" behavior="0" />
       <RootComponent type="1" schemaName="pbo_usage" behavior="0" />
       <RootComponent type="9" schemaName="metsys_couleur" behavior="0" />
-      <RootComponent type="29" id="{137551af-9648-ec11-8c62-6045bd8707ef}" behavior="0" />
       <RootComponent type="62" schemaName="pbo_Bibliothque" behavior="0" />
       <RootComponent type="62" schemaName="pbo_testMyApp" behavior="0" />
       <RootComponent type="80" schemaName="pbo_Bibliothque" behavior="0" />
@@ -98,10 +97,6 @@
       <MissingDependency>
         <Required type="9" schemaName="pbo_civilite" displayName="Civilité" solution="Active" />
         <Dependent type="2" schemaName="pbo_civilite" displayName="Civilité" parentSchemaName="pbo_usage" parentDisplayName="Usagé" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="connectionreference" displayName="pbo_sharedcommondataserviceforapps_39cc8" solution="Active" id.connectionreferencelogicalname="pbo_sharedcommondataserviceforapps_39cc8" />
-        <Dependent type="29" displayName="5-Import Excel with Flow" id="{137551af-9648-ec11-8c62-6045bd8707ef}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="SettingDefinition" displayName="AllowNotificationsEarlyAccess" solution="AppNotifications (10.0.0.10)" id.uniquename="AllowNotificationsEarlyAccess" />

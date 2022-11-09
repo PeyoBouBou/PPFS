@@ -27,15 +27,6 @@
   <AppModules />
   <EntityDataProviders />
   <CanvasApps />
-  <connectionreferences>
-    <connectionreference connectionreferencelogicalname="pbo_sharedexcelonlinebusiness_a3a1e">
-      <connectionreferencedisplayname>Excel Online (Business) PPFS21-a3a1e</connectionreferencedisplayname>
-      <connectorid>/providers/Microsoft.PowerApps/apis/shared_excelonlinebusiness</connectorid>
-      <iscustomizable>1</iscustomizable>
-      <statecode>0</statecode>
-      <statuscode>1</statuscode>
-    </connectionreference>
-  </connectionreferences>
   <msdyn_dataflows>
     <msdyn_dataflow msdyn_dataflowid="3720cdcb-d748-ec11-8c62-6045bd8707ef">
       <iscustomizable>1</iscustomizable>
