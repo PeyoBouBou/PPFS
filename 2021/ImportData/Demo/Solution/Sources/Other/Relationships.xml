@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_pbo_categorie" />
+  <EntityRelationship Name="business_unit_pbo_livre" />
+  <EntityRelationship Name="business_unit_pbo_usage" />
+  <EntityRelationship Name="lk_pbo_categorie_createdby" />
+  <EntityRelationship Name="lk_pbo_categorie_modifiedby" />
+  <EntityRelationship Name="lk_pbo_livre_createdby" />
+  <EntityRelationship Name="lk_pbo_livre_modifiedby" />
+  <EntityRelationship Name="lk_pbo_usage_createdby" />
+  <EntityRelationship Name="lk_pbo_usage_modifiedby" />
+  <EntityRelationship Name="owner_pbo_categorie" />
+  <EntityRelationship Name="owner_pbo_livre" />
+  <EntityRelationship Name="owner_pbo_usage" />
+  <EntityRelationship Name="pbo_Emprunter_Livre" />
+  <EntityRelationship Name="pbo_Livre_LivrePrincipalID_pbo_Categorie" />
+  <EntityRelationship Name="pbo_Livre_pbo_categorieID_pbo_Categorie" />
+  <EntityRelationship Name="pbo_Usage_Parent_pbo_Usage" />
+  <EntityRelationship Name="team_pbo_categorie" />
+  <EntityRelationship Name="team_pbo_livre" />
+  <EntityRelationship Name="team_pbo_usage" />
+  <EntityRelationship Name="TransactionCurrency_pbo_Categorie" />
+  <EntityRelationship Name="TransactionCurrency_pbo_Livre" />
+  <EntityRelationship Name="user_pbo_categorie" />
+  <EntityRelationship Name="user_pbo_livre" />
+  <EntityRelationship Name="user_pbo_usage" />
+</EntityRelationships>

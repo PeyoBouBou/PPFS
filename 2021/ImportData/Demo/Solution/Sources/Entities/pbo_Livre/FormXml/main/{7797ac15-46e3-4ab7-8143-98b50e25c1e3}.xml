@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{7797ac15-46e3-4ab7-8143-98b50e25c1e3}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{8054096a-6e0d-45a3-bc17-2de55388560d}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{f2fb8ce5-8519-4b69-8e8f-0ab26467383b}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3fc2e573-6370-42e5-bfae-8e2675d89183}">
+                        <labels>
+                          <label description="Titre" languagecode="1033" />
+                        </labels>
+                        <control id="pbo_titre" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pbo_titre" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3936bd22-4fc7-40f0-94bc-5e9d4c519a21}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Référence" languagecode="1033" />
+                        </labels>
+                        <control id="pbo_reference" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="pbo_reference" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1b847610-c2fa-48c5-9db2-96815625b7c0}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{51b9dc84-a796-416a-9c45-bdb2b4beccea}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Couleur Couverture" languagecode="1033" />
+                        </labels>
+                        <control id="pbo_couleurcouverture" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="pbo_couleurcouverture" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f97b8761-83bb-47be-b14c-a114fae3d4b2}" locklevel="0">
+                        <labels>
+                          <label description="Catégorie" languagecode="1033" />
+                        </labels>
+                        <control id="pbo_categorieid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="pbo_categorieid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fd4f331d-0870-4287-add9-bdc6268fbc15}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Prix" languagecode="1033" />
+                        </labels>
+                        <control id="pbo_prix" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="pbo_prix" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6f3c400f-47ff-4d0f-ba2b-d9ef40c8c881}" locklevel="0">
+                        <labels>
+                          <label description="Nombre de Page" languagecode="1033" />
+                        </labels>
+                        <control id="pbo_nombredepage" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="pbo_nombredepage" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{26403200-25eb-49e5-a5b7-d5e2eb9199a2}" locklevel="0">
+                        <labels>
+                          <label description="Prix de laPage" languagecode="1033" />
+                        </labels>
+                        <control id="pbo_prixdelapage" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="pbo_prixdelapage" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{11496b49-b0d7-4009-9d96-127cbc72ba23}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="New SG control 1610665875002" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>pbo_usage</TargetEntityType>
+                            <ViewId>{931ED313-82F2-4B30-94E2-DAAE653210D4}</ViewId>
+                            <ViewIds>{931ED313-82F2-4B30-94E2-DAAE653210D4}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>pbo_Emprunter_Livre</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{fbfa7516-94c0-4875-bca4-3957118abc8b}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{24950700-87bb-416b-9aed-2aa500db7962}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6b92b5f2-6bfb-4a0c-8908-a7d06367ceb8}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{dc0f9486-a7c4-4099-bbd5-d25bb505dbf2}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{2f0c8943-d618-4313-8313-b4ca3252baeb}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{78697933-c88f-4c84-bf6d-e786727d23b1}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{086fb3ed-ccc1-4285-88b1-8aff32eff0cb}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{11870925-b8e2-4067-9c23-e9377c8e2775}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Livre" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

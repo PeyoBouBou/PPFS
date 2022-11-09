@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{70878b2a-4055-4255-ac1e-8fbbfe7602d9}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{52267950-ba09-4d3a-9ce7-bb4fd65e5366}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{ca7ebbb8-9a63-4071-af70-bcd17c0cf303}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3201bd24-f126-4d14-af03-cf0cbd9afeac}">
+                        <labels>
+                          <label description="Libellé" languagecode="1033" />
+                        </labels>
+                        <control id="pbo_libelle" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pbo_libelle" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6a42ba07-1ccd-4450-9eca-1cdea8f1149f}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3700a162-6d15-42b7-a5de-4bf2875243ee}" locklevel="0">
+                        <labels>
+                          <label description="LivrePrincipal" languagecode="1033" />
+                        </labels>
+                        <control id="pbo_livreprincipalid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="pbo_livreprincipalid" disabled="false">
+                          <parameters />
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f11eaa30-7158-4764-bec2-1f38b7d1af04}" locklevel="0">
+                        <labels>
+                          <label description="Cumul de Prix" languagecode="1033" />
+                        </labels>
+                        <control id="pbo_cumuldeprix" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="pbo_cumuldeprix" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{91a1b1fc-675f-4e69-96b4-4d50f4a65d90}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="New SG control 1611757153008" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>pbo_livre</TargetEntityType>
+                            <ViewId>{E7CD1F5E-7C47-4EB7-BA99-C1B9A1BB4A16}</ViewId>
+                            <ViewIds>{E7CD1F5E-7C47-4EB7-BA99-C1B9A1BB4A16}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>pbo_Livre_pbo_categorieID_pbo_Categorie</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{e0e3f7c2-24cd-4d16-82d0-b8fddf811c5a}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{85917954-ccef-4d0d-9847-565508c16a5f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{dfcb24f5-79c2-4a4d-a09d-61697e9edbab}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{bf5e2279-2294-4a24-aa21-2ea99e49f977}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{a70208ac-4531-4e52-8e02-a106b955ff34}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{5ae0f470-9564-4311-9667-4ca5dacd9324}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{4affd0bd-069a-49a3-9057-2e225883b46b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b0881bfc-30a3-4b90-8cfe-1a8b7d08eb85}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

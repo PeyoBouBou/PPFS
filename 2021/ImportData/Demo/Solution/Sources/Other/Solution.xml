@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.22102.188" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>PPFS21</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="PPFS21" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.1</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>piebou</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="PieBou" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="PieBou" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>pbo</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>85891</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="pbo_categorie" behavior="0" />
+      <RootComponent type="1" schemaName="pbo_livre" behavior="0" />
+      <RootComponent type="1" schemaName="pbo_usage" behavior="0" />
+      <RootComponent type="9" schemaName="metsys_couleur" behavior="0" />
+      <RootComponent type="29" id="{137551af-9648-ec11-8c62-6045bd8707ef}" behavior="0" />
+      <RootComponent type="62" schemaName="pbo_Bibliothque" behavior="0" />
+      <RootComponent type="62" schemaName="pbo_testMyApp" behavior="0" />
+      <RootComponent type="80" schemaName="pbo_Bibliothque" behavior="0" />
+      <RootComponent type="300" schemaName="pbo_bibliothquedefaultcommandlibrary_82a64" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="pbo_Bibliothque" displayName="Bibliothèque" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="pbo_civilite" displayName="Civilité" solution="Active" />
+        <Dependent type="2" schemaName="pbo_civilite" displayName="Civilité" parentSchemaName="pbo_usage" parentDisplayName="Usagé" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="connectionreference" displayName="pbo_sharedcommondataserviceforapps_39cc8" solution="Active" id.connectionreferencelogicalname="pbo_sharedcommondataserviceforapps_39cc8" />
+        <Dependent type="29" displayName="5-Import Excel with Flow" id="{137551af-9648-ec11-8c62-6045bd8707ef}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AllowNotificationsEarlyAccess" solution="AppNotifications (10.0.0.10)" id.uniquename="AllowNotificationsEarlyAccess" />
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=pbo_Bibliothque,settingdefinitionid.uniquename=AllowNotificationsEarlyAccess" id.parentappmoduleid.uniquename="pbo_Bibliothque" id.settingdefinitionid.uniquename="AllowNotificationsEarlyAccess" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AsyncOnLoad" solution="SettingDefinitionsData (9.1.22073.220708001)" id.uniquename="AsyncOnLoad" />
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=pbo_Bibliothque,settingdefinitionid.uniquename=AsyncOnLoad" id.parentappmoduleid.uniquename="pbo_Bibliothque" id.settingdefinitionid.uniquename="AsyncOnLoad" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AsyncOnSave" solution="SettingDefinitionsData (9.1.22073.220708001)" id.uniquename="AsyncOnSave" />
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=pbo_Bibliothque,settingdefinitionid.uniquename=AsyncOnSave" id.parentappmoduleid.uniquename="pbo_Bibliothque" id.settingdefinitionid.uniquename="AsyncOnSave" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="EnablePowerBIQuickReport" solution="SettingDefinitionsData (9.1.22073.220708001)" id.uniquename="EnablePowerBIQuickReport" />
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=pbo_Bibliothque,settingdefinitionid.uniquename=EnablePowerBIQuickReport" id.parentappmoduleid.uniquename="pbo_Bibliothque" id.settingdefinitionid.uniquename="EnablePowerBIQuickReport" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="EnableRoleBasedOfflineProfileAccess" solution="SettingDefinitionsData (9.1.22073.220708001)" id.uniquename="EnableRoleBasedOfflineProfileAccess" />
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=pbo_Bibliothque,settingdefinitionid.uniquename=EnableRoleBasedOfflineProfileAccess" id.parentappmoduleid.uniquename="pbo_Bibliothque" id.settingdefinitionid.uniquename="EnableRoleBasedOfflineProfileAccess" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="NativeMobileDateTime" solution="SettingDefinitionsData (9.1.22073.220708001)" id.uniquename="NativeMobileDateTime" />
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=pbo_Bibliothque,settingdefinitionid.uniquename=NativeMobileDateTime" id.parentappmoduleid.uniquename="pbo_Bibliothque" id.settingdefinitionid.uniquename="NativeMobileDateTime" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="NativeMobileInputs" solution="SettingDefinitionsData (9.1.22073.220708001)" id.uniquename="NativeMobileInputs" />
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=pbo_Bibliothque,settingdefinitionid.uniquename=NativeMobileInputs" id.parentappmoduleid.uniquename="pbo_Bibliothque" id.settingdefinitionid.uniquename="NativeMobileInputs" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{2e5d5cc7-6208-44c5-b8f5-cecb8966dc82}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{4b30795f-5c16-4fdb-a7f0-5458ce20ab15}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{18c738eb-895a-4ff2-8da9-607df3097fd5}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{dbd8b1ad-14cf-4855-87fb-9b9437521806}" locklevel="0">
+                        <labels>
+                          <label description="Civilité" languagecode="1033" />
+                        </labels>
+                        <control id="pbo_civilite" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="pbo_civilite" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{27ec0a88-4785-467d-8409-d2cf4b372883}">
+                        <labels>
+                          <label description="Nom" languagecode="1033" />
+                        </labels>
+                        <control id="pbo_nom" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pbo_nom" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{516cea07-8867-4776-aaad-cdb60ce4106a}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c198519d-cfc8-488a-82e9-4f704f8abdb1}" locklevel="0">
+                        <labels>
+                          <label description="Parent" languagecode="1033" />
+                        </labels>
+                        <control id="pbo_parent" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="pbo_parent" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{50bdcabd-44d5-4efb-b33e-546573cb9fad}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="New SG control 1610665926458" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>pbo_livre</TargetEntityType>
+                            <ViewId>{E7CD1F5E-7C47-4EB7-BA99-C1B9A1BB4A16}</ViewId>
+                            <ViewIds>{E7CD1F5E-7C47-4EB7-BA99-C1B9A1BB4A16}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>pbo_Emprunter_Livre</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{c0d81fdd-fc2e-41fc-9cd1-276e6b44a88e}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{d6d052a3-7ab6-4c57-a81b-373118f76af5}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b0fc2701-2cbf-4544-bd7c-2ab0cd68ccd5}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d8250145-02bf-4f0b-99ce-69030f39d33c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{0d45472d-81b7-4319-9f0e-b9d6e7b353d6}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{aed0fdb5-7b9b-4e56-9a6c-6455d69a36de}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{41829a0f-9e5a-474d-8b56-d306cc5f2d66}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{4ce14476-efd2-4894-9c39-d45740adfc1e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

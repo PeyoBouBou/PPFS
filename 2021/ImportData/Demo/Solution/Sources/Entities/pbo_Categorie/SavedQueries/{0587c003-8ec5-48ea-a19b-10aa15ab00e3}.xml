@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{0587c003-8ec5-48ea-a19b-10aa15ab00e3}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="pbo_libelle" select="1" icon="1" preview="1">
+        <row name="result" id="pbo_categorieid">
+          <cell name="pbo_libelle" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="pbo_categorie">
+          <attribute name="pbo_categorieid" />
+          <attribute name="pbo_libelle" />
+          <attribute name="createdon" />
+          <order attribute="pbo_libelle" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Catégories" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

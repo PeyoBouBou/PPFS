@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="metsys_couleur" localizedName="Couleur" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Couleur" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="311090000">
+      <labels>
+        <label description="Jaune" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="311090001">
+      <labels>
+        <label description="Vert" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="311090002">
+      <labels>
+        <label description="Bleu" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="990380001">
+      <labels>
+        <label description="Noir" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="716260001">
+      <labels>
+        <label description="Marron" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>
