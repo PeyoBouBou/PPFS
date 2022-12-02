@@ -1,0 +1,257 @@
+﻿DataMigrationUtility.Export	Information	8	17/11/2022 01:38:46  *********************************************************
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:46  ** BEGIN EXPORT PROCESS **
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:46  ** Log Start local: 17/11/2022 01:38:46, UTC: 17/11/2022 00:38:46
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:46  ** Export Files: False
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:46  Temporary ExportData Directory: C:\Users\pierreb\AppData\Local\Temp\knhsaom0.dl0
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:46  Deserialize Schema information
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:46  Validating schema
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:48  Starting Entity Export Process
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:48  *********************************************************
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:48  ** Exporting Entity pbo_categorie **
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:48  *********************************************************
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:48  Found 8 rows for pbo_categorie entity
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:48  Processing Categorie rows for 8 to export stream
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:48  *********************************************************
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:48  ** Exporting Entity pbo_livre **
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:48  *********************************************************
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:49  Found 34 rows for pbo_livre entity
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:49  Processing Livre rows for 34 to export stream
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:50  *********************************************************
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:50  ** Exporting Entity pbo_usage **
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:50  *********************************************************
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:50  Found 6 rows for pbo_usage entity
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:50  Processing Usagé rows for 6 to export stream
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:50  Exporting of files is disabled. Skipping
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:50  Entity Export Process Complete
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:50  Writting output file : C:\Users\pierreb\AppData\Local\Temp\knhsaom0.dl0\data.xml
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:50  Creating data zip file
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:50  C:\Users\pierreb\Downloads\CMT\Bibliotheque.zip Adding C:\Users\pierreb\AppData\Local\Temp\knhsaom0.dl0\data.xml
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:50  C:\Users\pierreb\Downloads\CMT\Bibliotheque.zip Adding C:\Users\pierreb\AppData\Local\Temp\knhsaom0.dl0\data_schema.xml
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:50  *********************************************************
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:50  Data Exported Successfully
+DataMigrationUtility.Export	Information	8	17/11/2022 01:38:50  *********************************************************
+Microsoft.Xrm.Tooling.CrmConnectControl	Information	8	17/11/2022 01:58:16  Created CrmConnectionManager 
+Microsoft.Xrm.Tooling.CrmConnectControl	Verbose	16	17/11/2022 01:58:16  Failed to get credentials from Windows Vault
+Microsoft.Xrm.Tooling.CrmConnectControl	Information	8	17/11/2022 01:58:16  Use Current User Checkbox State = False
+Microsoft.Xrm.Tooling.CrmConnectControl	Verbose	16	17/11/2022 01:58:16  Failed to get credentials from Windows Vault
+Microsoft.Xrm.Tooling.CrmConnectControl	Information	8	17/11/2022 01:58:16  Use Current User Checkbox State = False
+Microsoft.Xrm.Tooling.CrmConnectControl	Information	8	17/11/2022 01:58:22  SetConfigKeyInfo, Key Count = 17
+Microsoft.Xrm.Tooling.CrmConnectControl	Information	8	17/11/2022 01:58:22  Login Status in Connect is =  Connecting to Microsoft Power Platform ...
+Microsoft.Xrm.Tooling.CrmConnectControl	Information	8	17/11/2022 01:58:22  Using CRM deployment type O365
+Microsoft.Xrm.Tooling.CrmConnectControl	Information	8	17/11/2022 01:58:22  SSL Connection = False
+Microsoft.Xrm.Tooling.CrmConnectControl	Information	8	17/11/2022 01:58:22  Trying Global Discovery Server, (Global Discovery) URI is = https://globaldisco.crm.dynamics.com/api/discovery/v2.0/Instances
+Microsoft.Xrm.Tooling.CrmConnectControl	Information	8	17/11/2022 01:58:22  Login Status in Connect is =  Initializing connections to Microsoft Dataverse...
+Microsoft.Xrm.Tooling.CrmConnectControl	Information	8	17/11/2022 01:58:22  Login Status in Connect is =  Connecting to Microsoft Power Platform ...
+Microsoft.Xrm.Tooling.CrmConnectControl	Information	8	17/11/2022 01:58:22  Login Status in Connect is =  Retrieving environments from Microsoft Power Platform - Global Discovery...
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Information	8	17/11/2022 01:58:22  DiscoverOrganizations - Called using user of MFA Auth for : https://globaldisco.crm.dynamics.com/api/discovery/v2.0/Instances
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Information	8	17/11/2022 01:58:22  DiscoverGlobalOrganizations - Initializing Discovery Server Object with https://globaldisco.crm.dynamics.com/api/discovery/v2.0/Instances
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Information	8	17/11/2022 01:58:22  AuthenticateService - found authority with name https://login.microsoftonline.com/common/oauth2/authorize
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Information	8	17/11/2022 01:58:22  AuthenticateService - found resource with name https://globaldisco.crm.dynamics.com/
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 01:58:22  ObtainAccessToken - PROMPT - Behavior: Always
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Information	8	17/11/2022 01:58:56  QueryGlobalDiscovery - Initializing Discovery Server Uri with https://globaldisco.crm.dynamics.com/api/discovery/v2.0/Instances
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 01:58:56  Begin Sending request to /api/discovery/v2.0/Instances : RequestID=812cfb0f-89b9-4453-9b29-78d607ea444f
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Information	8	17/11/2022 01:58:56  Response for request to WebAPI /api/discovery/v2.0/Instances : StatusCode=OK : RequestID=812cfb0f-89b9-4453-9b29-78d607ea444f : Duration=00:00:00.1906359
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Information	8	17/11/2022 01:58:56  QueryGlobalDiscovery - Discovery Server Get Orgs Call Complete - Elapsed:00:00:00.2054685
+Microsoft.Xrm.Tooling.CrmConnectControl	Information	8	17/11/2022 01:58:56  Found 10 Org(s)
+Microsoft.Xrm.Tooling.CrmConnectControl	Information	8	17/11/2022 01:59:06  Login Status in Connect is =  Connecting to Microsoft Power Platform ...
+Microsoft.Xrm.Tooling.CrmConnectControl	Information	8	17/11/2022 01:59:06  Using CRM deployment type O365
+Microsoft.Xrm.Tooling.CrmConnectControl	Information	8	17/11/2022 01:59:06  SSL Connection = False
+Microsoft.Xrm.Tooling.CrmConnectControl	Verbose	16	17/11/2022 01:59:06  DiscoveryServer indicated organization service location = https://superapp-dev.api.crm4.dynamics.com/XRMServices/2011/Organization.svc
+Microsoft.Xrm.Tooling.CrmConnectControl	Information	8	17/11/2022 01:59:06  Organization Service URI is = https://superapp-dev.api.crm4.dynamics.com/XRMServices/2011/Organization.svc
+Microsoft.Xrm.Tooling.CrmConnectControl	Information	8	17/11/2022 01:59:06  Validating connection to Microsoft Dataverse ...
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 01:59:06  Initialize CRM connection Started - AuthType: OAuth
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Information	8	17/11/2022 01:59:06  User Specified Org details are used.
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Information	8	17/11/2022 01:59:06  Found 1 Org(s)
+Microsoft.Xrm.Tooling.CrmConnectControl	Information	8	17/11/2022 01:59:06  Login Status in Connect is =  Initializing connections to Microsoft Dataverse...
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 01:59:06  DiscoveryServer indicated organization service location = https://superapp-dev.api.crm4.dynamics.com/XRMServices/2011/Organization.svc
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Information	8	17/11/2022 01:59:06  Organization Service URI is = https://superapp-dev.api.crm4.dynamics.com/XRMServices/2011/Organization.svc
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 01:59:06  ConnectAndInitCrmOrgService - Initializing Organization Service Object
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Information	8	17/11/2022 01:59:06  ConnectAndInitCrmOrgService - Requesting connection to Organization with CRM Version: 9.2.22102.188
+Microsoft.Xrm.Tooling.CrmConnectControl	Information	8	17/11/2022 01:59:06  Login Status in Connect is =  Connecting to Microsoft Power Platform ...
+Microsoft.Xrm.Tooling.CrmConnectControl	Information	8	17/11/2022 01:59:06  Login Status in Connect is =  Validating connection to Microsoft Dataverse ...
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Information	8	17/11/2022 01:59:07  AuthenticateService - found authority with name https://login.microsoftonline.com/2288d140-a07f-4222-a425-4b142e9202cc/oauth2/authorize
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Information	8	17/11/2022 01:59:07  AuthenticateService - found resource with name https://superapp-dev.api.crm4.dynamics.com/
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 01:59:07  ObtainAccessToken - PROMPT - Behavior: Auto
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 01:59:07  Added WebClient Header Hooks to the Request object.
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Information	8	17/11/2022 01:59:07  ConnectAndInitCrmOrgService - Proxy created, total elapsed time: 00:00:00.7211903
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Information	8	17/11/2022 01:59:07  User Organization (unq7d621d09568148fea23b86f48f40f) found in Discovery Server  - ONLY ORG FOUND
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Information	8	17/11/2022 01:59:07  Beginning Validation of CRM Connection. RequestID: 35e30485-429a-40cd-82f7-267997592891
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Information	8	17/11/2022 01:59:07  Executed Command - WhoAmIRequest : RequestId=35e30485-429a-40cd-82f7-267997592891 : total duration: 00:00:00.2278734
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Information	8	17/11/2022 01:59:07  Validation of CRM Connection Complete, total duration: 00:00:00.2349199
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 01:59:07  New Batch Manager Created, Max #of Batches:50000, Max #of RequestsPerBatch:5000
+Microsoft.Xrm.Tooling.CrmConnectControl	Information	8	17/11/2022 01:59:07  Login Status in Connect is =  Connection to Microsoft Dataverse Complete
+Microsoft.Xrm.Tooling.CrmConnectControl	Verbose	16	17/11/2022 01:59:07  Error Message: Failed to remove unneeded credentials from Windows Vault
+Source	: Microsoft.Xrm.Tooling.CrmConnectControl
+Method	: DeleteCredentials
+Date	: 17/11/2022
+Time	: 01:59:07
+Error	: Unable to delete the saved credentials.
+Stack Trace	: à Microsoft.Xrm.Tooling.CrmConnectControl.Utility.CredentialManager.DeleteCredentials(String target, Boolean deletePasswordOnly)
+   à Microsoft.Xrm.Tooling.CrmConnectControl.CrmConnectionManager.SaveConfigToFile(Dictionary`2 configToSave)
+======================================================================================================================
+
+Microsoft.Xrm.Tooling.CrmConnectControl	Information	8	17/11/2022 01:59:07  Use Current User Checkbox State = False
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:30  Execute Command - RetrieveAllEntities : GetAllEntityMetadata : RequestID=7749544d-be1e-4263-8301-a548db4c32dc 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:30  Executed Command - RetrieveAllEntities : GetAllEntityMetadata : RequestID=7749544d-be1e-4263-8301-a548db4c32dc : duration=00:00:00.5485647
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:30  Execute Command - RetrieveEntity : GetEntityMetadata : RequestID=01a904fb-c88f-4384-84e8-9b5fcda33cc2 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:30  Executed Command - RetrieveEntity : GetEntityMetadata : RequestID=01a904fb-c88f-4384-84e8-9b5fcda33cc2 : duration=00:00:00.0865289
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:30  Execute Command - RetrieveEntity : GetEntityMetadata : RequestID=81d320d7-8412-4dba-8298-7b39b34ea382 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:30  Executed Command - RetrieveEntity : GetEntityMetadata : RequestID=81d320d7-8412-4dba-8298-7b39b34ea382 : duration=00:00:00.0662617
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:30  Execute Command - RetrieveEntity : GetEntityMetadata : RequestID=0099aae4-fe58-4fd5-bb18-dcc13d87cdee 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:31  Executed Command - RetrieveEntity : GetEntityMetadata : RequestID=0099aae4-fe58-4fd5-bb18-dcc13d87cdee : duration=00:00:00.0702651
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:31  Execute Command - RetrieveEntity : GetEntityMetadata : RequestID=1eb46383-5e93-44d6-a81c-f75cea148371 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:31  Executed Command - RetrieveEntity : GetEntityMetadata : RequestID=1eb46383-5e93-44d6-a81c-f75cea148371 : duration=00:00:00.1625681
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:31  Execute Command - ExecuteFetch : Request Record Count For pbo_categorie : RequestID=4ebbe90c-eed3-45ff-b546-633362e20d06 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:32  Executed Command - ExecuteFetch : Request Record Count For pbo_categorie : RequestID=4ebbe90c-eed3-45ff-b546-633362e20d06 : duration=00:00:00.7935043
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:32  Execute Command - RetrieveMultiple : GetEntityDataBySearchParms : RequestID=16c3b5ac-a057-4d1d-9fce-2acc75ec1ca9 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:32  Executed Command - RetrieveMultiple : GetEntityDataBySearchParms : RequestID=16c3b5ac-a057-4d1d-9fce-2acc75ec1ca9 : duration=00:00:00.1525943
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:32  Execute Command - RetrieveEntity : GetEntityMetadata : RequestID=16d4d1b9-4a77-4b8a-b712-fe61976bd3c9 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:33  Executed Command - RetrieveEntity : GetEntityMetadata : RequestID=16d4d1b9-4a77-4b8a-b712-fe61976bd3c9 : duration=00:00:00.9066454
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:33  Execute Command - RetrieveMultiple : GetEntityDataBySearchParms : RequestID=ecb0cc87-2045-4701-a26c-68295b002fe6 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:33  Executed Command - RetrieveMultiple : GetEntityDataBySearchParms : RequestID=ecb0cc87-2045-4701-a26c-68295b002fe6 : duration=00:00:00.0466638
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:33  Execute Command - RetrieveEntity : GetEntityMetadata : RequestID=136288ff-9dbb-4150-92ae-475b75b3b57b 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:33  Executed Command - RetrieveEntity : GetEntityMetadata : RequestID=136288ff-9dbb-4150-92ae-475b75b3b57b : duration=00:00:00.0935519
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:33  Execute Command - RetrieveMultiple : GetEntityDataBySearchParms : RequestID=0e99e1a0-6899-4d4f-adea-ae9888e4e607 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:33  Executed Command - RetrieveMultiple : GetEntityDataBySearchParms : RequestID=0e99e1a0-6899-4d4f-adea-ae9888e4e607 : duration=00:00:00.0676175
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:33  Execute Command - RetrieveEntity : GetEntityMetadata : RequestID=dc0bd513-0b44-480b-9851-7ca5f81e89d0 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:33  Executed Command - RetrieveEntity : GetEntityMetadata : RequestID=dc0bd513-0b44-480b-9851-7ca5f81e89d0 : duration=00:00:00.0718193
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:33  Execute Command - RetrieveMultiple : GetEntityDataBySearchParms : RequestID=e94ba30f-6758-4b99-b840-5ad12f7dc42a 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:33  Executed Command - RetrieveMultiple : GetEntityDataBySearchParms : RequestID=e94ba30f-6758-4b99-b840-5ad12f7dc42a : duration=00:00:00.1998331
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:33  Execute Command - RetrieveMultiple : GetEntityDataBySearchParms : RequestID=6eca972d-841b-4476-9e25-faaa0e13a6d2 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:33  Executed Command - RetrieveMultiple : GetEntityDataBySearchParms : RequestID=6eca972d-841b-4476-9e25-faaa0e13a6d2 : duration=00:00:00.0348915
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:33  Execute Command - Create : pbo_categorie : RequestID=043a6c59-ff74-46cf-b339-578a563fabf4 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:34  Executed Command - Create : pbo_categorie : RequestID=043a6c59-ff74-46cf-b339-578a563fabf4 : duration=00:00:00.4917132
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:34  Execute Command - Create : pbo_categorie : RequestID=a62fd5f4-8d61-4ea1-bc64-7a7b043d3f99 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:34  Executed Command - Create : pbo_categorie : RequestID=a62fd5f4-8d61-4ea1-bc64-7a7b043d3f99 : duration=00:00:00.0667275
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:34  Execute Command - Create : pbo_categorie : RequestID=9679f4ea-6171-48cf-94f0-efc0dd7ab824 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:34  Executed Command - Create : pbo_categorie : RequestID=9679f4ea-6171-48cf-94f0-efc0dd7ab824 : duration=00:00:00.0577912
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:34  Execute Command - Create : pbo_categorie : RequestID=a548d49a-317e-41d7-bbb7-52eb9cc0aaf6 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:34  Executed Command - Create : pbo_categorie : RequestID=a548d49a-317e-41d7-bbb7-52eb9cc0aaf6 : duration=00:00:00.0477760
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:34  Execute Command - Create : pbo_categorie : RequestID=7085fc27-b5da-4281-8e7e-2fbf8cd33f5f 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:34  Executed Command - Create : pbo_categorie : RequestID=7085fc27-b5da-4281-8e7e-2fbf8cd33f5f : duration=00:00:00.0540175
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:34  Execute Command - Create : pbo_categorie : RequestID=c54efe87-0a3e-4fa2-99a9-5f51ca6f4f1d 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:35  Executed Command - Create : pbo_categorie : RequestID=c54efe87-0a3e-4fa2-99a9-5f51ca6f4f1d : duration=00:00:00.3017133
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:35  Execute Command - Create : pbo_categorie : RequestID=b72e6b5a-6dc8-4cf1-a5c6-1d631e0fc08f 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:35  Executed Command - Create : pbo_categorie : RequestID=b72e6b5a-6dc8-4cf1-a5c6-1d631e0fc08f : duration=00:00:00.0641167
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:35  Execute Command - Create : pbo_categorie : RequestID=967d2f19-9d15-40cd-85e2-d12c65b6451c 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:35  Executed Command - Create : pbo_categorie : RequestID=967d2f19-9d15-40cd-85e2-d12c65b6451c : duration=00:00:00.0606162
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:35  Execute Command - ExecuteFetch : Request Record Count For pbo_livre : RequestID=f8130b49-c6f3-498a-b368-0f4208705252 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:35  Executed Command - ExecuteFetch : Request Record Count For pbo_livre : RequestID=f8130b49-c6f3-498a-b368-0f4208705252 : duration=00:00:00.1142734
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:35  Execute Command - RetrieveMultiple : GetEntityDataBySearchParms : RequestID=8b2bd6a7-5a4e-4eb9-a258-1cd05bd964f7 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:35  Executed Command - RetrieveMultiple : GetEntityDataBySearchParms : RequestID=8b2bd6a7-5a4e-4eb9-a258-1cd05bd964f7 : duration=00:00:00.0697145
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:35  Execute Command - Create : pbo_livre : RequestID=90d4f8ee-9d09-4c4b-b5d8-1892499e9316 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:35  Executed Command - Create : pbo_livre : RequestID=90d4f8ee-9d09-4c4b-b5d8-1892499e9316 : duration=00:00:00.3043971
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:35  Execute Command - Create : pbo_livre : RequestID=f80d638e-2871-4a8f-86a2-b3f6bd9c51c9 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:35  Executed Command - Create : pbo_livre : RequestID=f80d638e-2871-4a8f-86a2-b3f6bd9c51c9 : duration=00:00:00.1107687
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:35  Execute Command - Create : pbo_livre : RequestID=f42af37b-d624-415f-bbab-97a7121a11a9 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:35  Executed Command - Create : pbo_livre : RequestID=f42af37b-d624-415f-bbab-97a7121a11a9 : duration=00:00:00.0622464
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:35  Execute Command - Create : pbo_livre : RequestID=34a21d0f-8160-4633-b146-e0f2f53cbb98 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Executed Command - Create : pbo_livre : RequestID=34a21d0f-8160-4633-b146-e0f2f53cbb98 : duration=00:00:00.0744838
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Execute Command - Create : pbo_livre : RequestID=b977b0fc-e5b6-417c-8518-26bc82a77fae 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Executed Command - Create : pbo_livre : RequestID=b977b0fc-e5b6-417c-8518-26bc82a77fae : duration=00:00:00.0579644
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Execute Command - Create : pbo_livre : RequestID=b26276ed-56fe-4795-b0cc-e1f23e2a2508 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Executed Command - Create : pbo_livre : RequestID=b26276ed-56fe-4795-b0cc-e1f23e2a2508 : duration=00:00:00.0571628
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Execute Command - Create : pbo_livre : RequestID=63d1bfd7-86d8-4f4c-8b0a-561787ade99b 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Executed Command - Create : pbo_livre : RequestID=63d1bfd7-86d8-4f4c-8b0a-561787ade99b : duration=00:00:00.0483854
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Execute Command - Create : pbo_livre : RequestID=25bcfb08-433c-4d8e-b2f9-e2d503b140d6 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Executed Command - Create : pbo_livre : RequestID=25bcfb08-433c-4d8e-b2f9-e2d503b140d6 : duration=00:00:00.0531465
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Execute Command - Create : pbo_livre : RequestID=2fa23255-23b7-4683-bd1c-bc4f4348a105 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Executed Command - Create : pbo_livre : RequestID=2fa23255-23b7-4683-bd1c-bc4f4348a105 : duration=00:00:00.0568069
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Execute Command - Create : pbo_livre : RequestID=68cabf73-bd08-464d-8a21-5090ae1b7644 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Executed Command - Create : pbo_livre : RequestID=68cabf73-bd08-464d-8a21-5090ae1b7644 : duration=00:00:00.0559558
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Execute Command - Create : pbo_livre : RequestID=4038a311-3131-43e9-97fb-2a1ee621c7f8 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Executed Command - Create : pbo_livre : RequestID=4038a311-3131-43e9-97fb-2a1ee621c7f8 : duration=00:00:00.0560610
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Execute Command - Create : pbo_livre : RequestID=7ad87bfb-5dee-496e-aa95-bb7285b7591f 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Executed Command - Create : pbo_livre : RequestID=7ad87bfb-5dee-496e-aa95-bb7285b7591f : duration=00:00:00.0824478
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Execute Command - Create : pbo_livre : RequestID=895f8cd0-de7f-422b-b43f-42ef22523270 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Executed Command - Create : pbo_livre : RequestID=895f8cd0-de7f-422b-b43f-42ef22523270 : duration=00:00:00.0564416
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Execute Command - Create : pbo_livre : RequestID=e14da83d-49b0-4542-b440-56ff67214378 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Executed Command - Create : pbo_livre : RequestID=e14da83d-49b0-4542-b440-56ff67214378 : duration=00:00:00.0527932
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Execute Command - Create : pbo_livre : RequestID=aa78a333-1ea3-4e19-bb42-65af2c1f93f5 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Executed Command - Create : pbo_livre : RequestID=aa78a333-1ea3-4e19-bb42-65af2c1f93f5 : duration=00:00:00.0459061
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Execute Command - Create : pbo_livre : RequestID=d1ca5ec8-7adc-4b20-8787-0931746c3729 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Executed Command - Create : pbo_livre : RequestID=d1ca5ec8-7adc-4b20-8787-0931746c3729 : duration=00:00:00.0695537
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Execute Command - Create : pbo_livre : RequestID=1125cd42-8476-47fc-8cdb-0ed22600f369 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:36  Executed Command - Create : pbo_livre : RequestID=1125cd42-8476-47fc-8cdb-0ed22600f369 : duration=00:00:00.0739012
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:37  Execute Command - Create : pbo_livre : RequestID=bee00b85-7e0c-489c-bf7a-620a1e1d37e5 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:37  Executed Command - Create : pbo_livre : RequestID=bee00b85-7e0c-489c-bf7a-620a1e1d37e5 : duration=00:00:00.0828810
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:37  Execute Command - Create : pbo_livre : RequestID=1693eb38-a9d4-49dc-b7be-aa5c3d9f6e98 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:37  Executed Command - Create : pbo_livre : RequestID=1693eb38-a9d4-49dc-b7be-aa5c3d9f6e98 : duration=00:00:00.1774005
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:37  Execute Command - Create : pbo_livre : RequestID=b01304ec-ffbd-48d2-b85d-ae4acedd9f54 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:37  Executed Command - Create : pbo_livre : RequestID=b01304ec-ffbd-48d2-b85d-ae4acedd9f54 : duration=00:00:00.0816947
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:37  Execute Command - Create : pbo_livre : RequestID=38a0cc78-7fb4-4f9c-9051-91435ddc2e34 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:37  Executed Command - Create : pbo_livre : RequestID=38a0cc78-7fb4-4f9c-9051-91435ddc2e34 : duration=00:00:00.0853058
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:37  Execute Command - Create : pbo_livre : RequestID=67d8e94d-6790-405f-975c-4391271f8806 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:37  Executed Command - Create : pbo_livre : RequestID=67d8e94d-6790-405f-975c-4391271f8806 : duration=00:00:00.0853250
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:37  Execute Command - Create : pbo_livre : RequestID=13109307-385e-4f24-b021-54e4779a9925 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:37  Executed Command - Create : pbo_livre : RequestID=13109307-385e-4f24-b021-54e4779a9925 : duration=00:00:00.0767765
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:37  Execute Command - Create : pbo_livre : RequestID=140dd9f0-083d-428f-98e1-f5b635d4c53c 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:37  Executed Command - Create : pbo_livre : RequestID=140dd9f0-083d-428f-98e1-f5b635d4c53c : duration=00:00:00.0820098
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:37  Execute Command - Create : pbo_livre : RequestID=ebf073d6-5b3b-43e8-8e5d-5a2ed1cebd6c 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:37  Executed Command - Create : pbo_livre : RequestID=ebf073d6-5b3b-43e8-8e5d-5a2ed1cebd6c : duration=00:00:00.0726392
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:37  Execute Command - Create : pbo_livre : RequestID=e7d403ee-91c7-4f70-b69e-2722df3d57d6 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:38  Executed Command - Create : pbo_livre : RequestID=e7d403ee-91c7-4f70-b69e-2722df3d57d6 : duration=00:00:00.1165253
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:38  Execute Command - Create : pbo_livre : RequestID=c59d7689-2961-4226-916f-61c6c248f1b4 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:38  Executed Command - Create : pbo_livre : RequestID=c59d7689-2961-4226-916f-61c6c248f1b4 : duration=00:00:00.0824230
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:38  Execute Command - Create : pbo_livre : RequestID=9d3280f1-c290-4f42-b798-723ed9083494 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:38  Executed Command - Create : pbo_livre : RequestID=9d3280f1-c290-4f42-b798-723ed9083494 : duration=00:00:00.0614188
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:38  Execute Command - Create : pbo_livre : RequestID=bfdda695-0153-4bfc-8166-ec7f894914e4 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:38  Executed Command - Create : pbo_livre : RequestID=bfdda695-0153-4bfc-8166-ec7f894914e4 : duration=00:00:00.0549603
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:38  Execute Command - Create : pbo_livre : RequestID=ba9df703-d595-45e4-a78f-93033f814f80 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:38  Executed Command - Create : pbo_livre : RequestID=ba9df703-d595-45e4-a78f-93033f814f80 : duration=00:00:00.0632855
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:38  Execute Command - Create : pbo_livre : RequestID=3066bae3-4661-400f-91de-60ce6901302f 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:38  Executed Command - Create : pbo_livre : RequestID=3066bae3-4661-400f-91de-60ce6901302f : duration=00:00:00.0868036
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:38  Execute Command - Create : pbo_livre : RequestID=bfeecb41-0dba-4f4d-aef7-624a27bbb447 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:38  Executed Command - Create : pbo_livre : RequestID=bfeecb41-0dba-4f4d-aef7-624a27bbb447 : duration=00:00:00.0636676
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:38  Execute Command - Create : pbo_livre : RequestID=aa5049b5-6077-4f78-aa4a-fe2d1961a0ac 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:38  Executed Command - Create : pbo_livre : RequestID=aa5049b5-6077-4f78-aa4a-fe2d1961a0ac : duration=00:00:00.0653967
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:38  Execute Command - Create : pbo_livre : RequestID=8cee23f8-6da3-4cb2-9dbf-85a505bb2c96 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:38  Executed Command - Create : pbo_livre : RequestID=8cee23f8-6da3-4cb2-9dbf-85a505bb2c96 : duration=00:00:00.0671402
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:38  Execute Command - ExecuteFetch : Request Record Count For pbo_usage : RequestID=4975dec0-6785-4df8-8046-9066f98fa3a3 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:38  Executed Command - ExecuteFetch : Request Record Count For pbo_usage : RequestID=4975dec0-6785-4df8-8046-9066f98fa3a3 : duration=00:00:00.0464097
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:38  Execute Command - RetrieveMultiple : GetEntityDataBySearchParms : RequestID=08a1bb05-17b8-4ba0-a36a-117a4e1d8b19 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:38  Executed Command - RetrieveMultiple : GetEntityDataBySearchParms : RequestID=08a1bb05-17b8-4ba0-a36a-117a4e1d8b19 : duration=00:00:00.1067078
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:38  Execute Command - RetrieveMultiple : GetEntityDataBySearchParms : RequestID=c99e3ec0-2f8c-487f-a3a6-f645d6332664 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:38  Executed Command - RetrieveMultiple : GetEntityDataBySearchParms : RequestID=c99e3ec0-2f8c-487f-a3a6-f645d6332664 : duration=00:00:00.0442073
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:38  Execute Command - RetrieveMultiple : GetEntityDataBySearchParms : RequestID=b3ad311a-ff3a-43fb-aca2-3e74ddb22dc4 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:39  Executed Command - RetrieveMultiple : GetEntityDataBySearchParms : RequestID=b3ad311a-ff3a-43fb-aca2-3e74ddb22dc4 : duration=00:00:00.0706573
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:39  Execute Command - Create : pbo_usage : RequestID=508473eb-72fd-4b0e-a6b2-71055c24dfe3 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:39  Executed Command - Create : pbo_usage : RequestID=508473eb-72fd-4b0e-a6b2-71055c24dfe3 : duration=00:00:00.1750483
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:39  Execute Command - Create : pbo_usage : RequestID=4b824c30-1ecb-404c-880d-b4840efb0b3b 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:39  Executed Command - Create : pbo_usage : RequestID=4b824c30-1ecb-404c-880d-b4840efb0b3b : duration=00:00:00.1094139
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:39  Execute Command - Create : pbo_usage : RequestID=ba9c0756-0114-4293-9b9b-5bb650098da2 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:39  Executed Command - Create : pbo_usage : RequestID=ba9c0756-0114-4293-9b9b-5bb650098da2 : duration=00:00:00.0491519
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:39  Execute Command - Create : pbo_usage : RequestID=35a095fe-78ea-4b8c-ac9e-4b8e3dc25f59 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:39  Executed Command - Create : pbo_usage : RequestID=35a095fe-78ea-4b8c-ac9e-4b8e3dc25f59 : duration=00:00:00.0603907
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:39  Execute Command - Create : pbo_usage : RequestID=7e11624e-c085-4549-b3ff-44d14f126e3a 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:39  Executed Command - Create : pbo_usage : RequestID=7e11624e-c085-4549-b3ff-44d14f126e3a : duration=00:00:00.0751513
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:39  Execute Command - Create : pbo_usage : RequestID=db24887f-6600-4c96-99f5-d3f694c16ede 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:39  Executed Command - Create : pbo_usage : RequestID=db24887f-6600-4c96-99f5-d3f694c16ede : duration=00:00:00.0683142
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:39  Execute Command - Update : Updating pbo_categorie : 77ccad0e-be56-eb11-a812-000d3aab4ca3 : RequestID=1d2fa7e7-f226-460c-a1c0-0bd25106914d 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:39  Executed Command - Update : Updating pbo_categorie : 77ccad0e-be56-eb11-a812-000d3aab4ca3 : RequestID=1d2fa7e7-f226-460c-a1c0-0bd25106914d : duration=00:00:00.2167701
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:39  Execute Command - Update : Updating pbo_categorie : 536ace37-aa60-eb11-a812-0022487f85ac : RequestID=d4ea1dc0-5380-470b-8e9b-a7447b00aa86 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:40  Executed Command - Update : Updating pbo_categorie : 536ace37-aa60-eb11-a812-0022487f85ac : RequestID=d4ea1dc0-5380-470b-8e9b-a7447b00aa86 : duration=00:00:00.0808106
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:40  Execute Command - Update : Updating pbo_usage : beeafd20-be56-eb11-a812-000d3aab4ca3 : RequestID=90a135a9-e64f-43a2-bfe1-848253a8439d 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:40  Executed Command - Update : Updating pbo_usage : beeafd20-be56-eb11-a812-000d3aab4ca3 : RequestID=90a135a9-e64f-43a2-bfe1-848253a8439d : duration=00:00:00.3358119
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:40  Execute Command - Update : Updating pbo_usage : d3eafd20-be56-eb11-a812-000d3aab4ca3 : RequestID=30f6312b-9823-4c18-8a1d-d8978290d7b4 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:40  Executed Command - Update : Updating pbo_usage : d3eafd20-be56-eb11-a812-000d3aab4ca3 : RequestID=30f6312b-9823-4c18-8a1d-d8978290d7b4 : duration=00:00:00.2768162
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:40  Execute Command - Update : Updating pbo_usage : 30214578-2366-eb11-a812-000d3ac22ec5 : RequestID=ccbe96be-46c7-4baf-8d28-3d24d1594440 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:40  Executed Command - Update : Updating pbo_usage : 30214578-2366-eb11-a812-000d3ac22ec5 : RequestID=ccbe96be-46c7-4baf-8d28-3d24d1594440 : duration=00:00:00.1009134
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:40  Execute Command - Update : Updating pbo_usage : 3f118784-2366-eb11-a812-000d3ac22ec5 : RequestID=cd14e99f-62e0-4846-8f37-5b90616238d6 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:40  Executed Command - Update : Updating pbo_usage : 3f118784-2366-eb11-a812-000d3ac22ec5 : RequestID=cd14e99f-62e0-4846-8f37-5b90616238d6 : duration=00:00:00.1417265
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:41  Execute Command - RetrieveMultiple : Search On Linked Data : RequestID=cf7c2b75-162e-4b91-87c0-84561a069cd8 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:41  Executed Command - RetrieveMultiple : Search On Linked Data : RequestID=cf7c2b75-162e-4b91-87c0-84561a069cd8 : duration=00:00:00.0759358
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:41  Execute Command - RetrieveMultiple : Search On Linked Data : RequestID=21084c24-6c9e-46e6-9555-cd156d9e6998 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:41  Executed Command - RetrieveMultiple : Search On Linked Data : RequestID=21084c24-6c9e-46e6-9555-cd156d9e6998 : duration=00:00:00.0416092
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:41  Execute Command - RetrieveMultiple : Search On Linked Data : RequestID=416e8d4d-eb46-4e8c-afc6-b1178ee8cb0e 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:41  Executed Command - RetrieveMultiple : Search On Linked Data : RequestID=416e8d4d-eb46-4e8c-afc6-b1178ee8cb0e : duration=00:00:00.0456774
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:41  Execute Command - Associate : Executing CreateMultiEntityAssociation : RequestID=ded02130-bbce-413d-9e19-5364b3dec82b 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:43  Executed Command - Associate : Executing CreateMultiEntityAssociation : RequestID=ded02130-bbce-413d-9e19-5364b3dec82b : duration=00:00:02.6826846
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:43  Execute Command - RetrieveMultiple : Search On Linked Data : RequestID=506374c6-1487-400e-80a8-8bb555ab54e4 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:43  Executed Command - RetrieveMultiple : Search On Linked Data : RequestID=506374c6-1487-400e-80a8-8bb555ab54e4 : duration=00:00:00.0429894
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:43  Execute Command - Associate : Executing CreateMultiEntityAssociation : RequestID=fca8530f-0ba4-456c-9374-d19ac4371f6b 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:44  Executed Command - Associate : Executing CreateMultiEntityAssociation : RequestID=fca8530f-0ba4-456c-9374-d19ac4371f6b : duration=00:00:00.0693400
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:44  Execute Command - RetrieveMultiple : Search On Linked Data : RequestID=914a7776-ca42-4bcc-922d-be432dfaaba0 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:44  Executed Command - RetrieveMultiple : Search On Linked Data : RequestID=914a7776-ca42-4bcc-922d-be432dfaaba0 : duration=00:00:00.0410408
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:44  Execute Command - Associate : Executing CreateMultiEntityAssociation : RequestID=dcf93269-cb10-4ddc-bab2-ea06c1cea7ff 
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient	Verbose	16	17/11/2022 02:01:44  Executed Command - Associate : Executing CreateMultiEntityAssociation : RequestID=dcf93269-cb10-4ddc-bab2-ea06c1cea7ff : duration=00:00:00.0674601
